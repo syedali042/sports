@@ -1606,6 +1606,46 @@ font-size: 10px;
   font-family: ${p=>p.theme.font.mulish} !important;
 }
  
+ .carosuel{
+  background:rgb(26, 31, 36);
+ }
+ .carosuel .coca_img{
+   width: 450px;
+   height: 300px;
+ }
+ .carosuel .coca_img2{
+   width: 450px;
+   height: 300px;
+ }
+.carosuel .carosuel-left h2{
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+}
+.carosuel .carosuel-left p{
+  font-size: 24px;
+  color: #fff;
+}
+.counters{
+  background-color: rgb(26,31,36);
+}
+.counters h2{
+  font-weight: bold;
+  font-size: 55px;
+  color: #fff;
+}
+.counters_section h2{
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.counters_section p{
+  color: #fff;
+  text-transform: capitalize;
+}
+.counters .para h5{
+  color: #fff;
+}
 `
 
 

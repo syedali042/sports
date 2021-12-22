@@ -3,6 +3,8 @@ import {useState, useEffect} from 'react'
 import Router, { useRouter } from 'next/router'
 import Hero from "@components/Pages/Home/Hero"
 import ProductCard from "src/Components/Cards/Product"
+import Carosuel from "./Carosuel"
+import Counters from "./Counters"
 import ServiceCard from "src/Components/Cards/Service"
 import { CardsContainer } from "src/Components/Cards/Product/styles"
 import Container from "src/Components/Container"
@@ -133,9 +135,8 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <div className="row">
-                
-            </div>
+            <Carosuel />
+            <Counters />
             <div style={{backgroundColor:'#1A1F24', paddingTop:'80px'}}>
             <Footer />
             </div>
