@@ -1627,7 +1627,7 @@ font-size: 10px;
   color: #fff;
 }
 .counters{
-  background-color: rgb(26,31,36);
+  background-color: #212529;
 }
 .counters h2{
   font-weight: bold;
@@ -1645,6 +1645,61 @@ font-size: 10px;
 }
 .counters .para h5{
   color: #fff;
+}
+.workcaro{
+  background-color: #212529;
+}
+.workcaro h2{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.workcaro img{
+  width: 150px;
+  height: 150px;
+}
+.testimonail{
+  background-color: #212529;
+}
+.testimonail h2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.testimonail .testicard{
+  width:1140px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.testimonail img{
+  width: 400px;
+  height: 300px;
+}
+.first h2{
+  color: #000;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.first p{
+  color: #000;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.second{
+  margin-top: 100px;
+}
+.second ul li{
+  list-style: none;
+  margin-top: 40px;
+}
+.second .video_ad{
+  width:100%;
+  height: 500px;
 }
 `
 

@@ -24,7 +24,12 @@ import Rectangle4 from '@assets/images/Rectangle-4.png'
 import Rectangle5 from '@assets/images/Rectangle-5.png'
 import Rectangle6 from '@assets/images/Rectangle-6.png'
 import Specialist from "src/Components/Specialist";
+import WorkCaro from './WorkCaro'
+import Testimonail from './Testimonail'
 import Host from 'src/host'
+import First from './First'
+import Second from './Second'
+
 var settings = {
     // dots: true,
     
@@ -137,6 +142,10 @@ const Home = () => {
             <Hero />
             <Carosuel />
             <Counters />
+            <WorkCaro />
+            <Testimonail />
+            <First/>
+            <Second />
             <div style={{backgroundColor:'#1A1F24', paddingTop:'80px'}}>
             <Footer />
             </div>
