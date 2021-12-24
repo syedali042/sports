@@ -1764,6 +1764,16 @@ font-size: 10px;
   height: 500px;
   background: cover no-repeat;
 }
+.contactModel{
+  position: absolute !important;
+  top:0;
+  left:0;
+  margin: 0 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  z-index: 999999;
+}
 `
 
 

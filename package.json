@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "addToGit":"git add .",
+    "commitToGit":"git commit -m 'Updated'",
+    "pushToGit": "git push origin master",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

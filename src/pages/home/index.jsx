@@ -32,6 +32,7 @@ import Second from './Second'
 import AboutPageBelieving from './AboutPageBelieving'
 import Counter2 from './Counter2'
 import Anything from './Anything'
+import Contact from './Contact'
 
 var settings = {
     // dots: true,
@@ -200,6 +201,7 @@ const Home = () => {
             />
             <Counter2 />
             <Anything />
+            <Contact />            
             <div style={{backgroundColor:'#1A1F24', paddingTop:'80px'}}>
             <Footer />
             </div>
