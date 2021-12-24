@@ -1672,7 +1672,7 @@ font-size: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .testimonail img{
-  width: 400px;
+  width: 350px;
   height: 300px;
 }
 .first h2{
@@ -1680,6 +1680,7 @@ font-size: 10px;
   font-weight: bold;
   font-size: 40px;
   text-align: justify;
+  word-spacing: 5px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -1698,8 +1699,70 @@ font-size: 10px;
   margin-top: 40px;
 }
 .second .video_ad{
-  width:100%;
+  width: 100%;
   height: 500px;
+}
+.about_beleiving h2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about_beleiving h3{
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: start;
+}
+.about_beleiving p{
+  color: #fff;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20px;
+  ${'' /* padding-left: 70px; */}
+}
+.about_beleiving{
+  background: url("https://www.worldatlas.com/r/w1200/upload/f9/6e/7a/shutterstock-84522391.jpg") cover no-repeat;
+}
+.counter2 h2,h1,h3,h4,h5,p{
+  color: #fff;
+}
+.counter2 h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.counter2 h5{
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-top: 70px;
+}
+.counter2 h1{
+  font-size: 80px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.counter2 p{
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.counter2 h4{
+  font-size: 38px;
+  font-weight: 500;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.anything .myrow{
+  width: 100%;
+  display: flex;
+}
+.anything img{
+  width: 100%;
+  height: 500px;
+  background: cover no-repeat;
 }
 `
 

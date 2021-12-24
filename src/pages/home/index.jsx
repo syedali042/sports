@@ -29,6 +29,9 @@ import Testimonail from './Testimonail'
 import Host from 'src/host'
 import First from './First'
 import Second from './Second'
+import AboutPageBelieving from './AboutPageBelieving'
+import Counter2 from './Counter2'
+import Anything from './Anything'
 
 var settings = {
     // dots: true,
@@ -141,11 +144,62 @@ const Home = () => {
         <>
             <Hero />
             <Carosuel />
-            <Counters />
+            <Counters 
+                mainHeading = "TRUSTED ACROSS THE SPORTS WORLD"
+                firstCountHeading = "1,124,122"
+                firstCountPara = "Total Games Broadcast"
+                secondCountHeading = "101,913"
+                secondCountPara = "Games Produced Last Month"
+                thirdCountHeading = "17,814"
+                thirdCountPara = "Fields and Courts"
+                fourCountHeading = "57"
+                fourCountPara = "Countries"
+                bottomPara = "Our pioneering 'set-and-forget' technology is powering sports globally, live and on-demand!"
+            />
             <WorkCaro />
             <Testimonail />
-            <First/>
+            <First heading="DECISIVE TOOLS FOR COACHING"
+                para = "VidSwap analytics serves sports organizations, coaches, leagues and teams — auto-editing games and pre-tagging the action to help coaches improve performance more effectively."
+            />
             <Second />
+            <First heading="COACHING SOLUTIONS FOR PROS AND AMATEURS"
+                para = "Two solutions are available, each for a designated market. Professional clubs and coaches can take advantage of all the high-end capabilities of the professional system while amateur and high-school teams can get great benefit from the wide functionality of the Pixellot coaching app and VidSwap analytics platform."
+                imgsrc= "https://www.pixellot.tv/wp-content/uploads/2020/07/BARCA-Innovation-hub-H-RGB-01-e1595953414406.png"
+            />
+            <Second />
+            <First heading="MAKING MILLIONS OF SMALL GAMES  BIG" 
+                para = "Every day, all around the world, millions of sporting events unfold. But because of the costs involved, these games are never broadcast. That’s why Pixellot pioneered the concept of Automated sports production – to enable fans, family, and friends to watch the sporting events that matter to them the most, live and on-demand. Founded in 2014, Pixellot revolutionized the sports world by devising automated production that enables high-quality video coverage at a fraction of the cost. Using AI, (Artificial intelligence), machine learning, camera arrays, software and cloud computing, Pixellot solutions deliver dynamic coverage of the game flow by focusing on the relevant action happening on the field or court."
+            />
+            <Counters 
+                mainHeading = "BROADCASTING TO MILLIONS OF FANS"
+                firstCountHeading = "17,814"
+                firstCountPara = "Courts and Fields"
+                secondCountHeading = "100,000"
+                secondCountPara = "Live Games per Month"
+                thirdCountHeading = "1,080,044"
+                thirdCountPara = "Games Produced"
+                fourCountHeading = "230"
+                fourCountPara = "Employees"
+                bottomPara = ""
+            />
+            <AboutPageBelieving 
+                order={true}
+                mainHeading = "SEEING IS BELIEVING"
+                subHeading = "PIXELLOT’S END TO END SOLUTION"
+                paragraph = "Pixellot is one of the few vendors who offer a complete A to Z solution that includes filming, producing, broadcasting and data analytics. Our solution also includes a fully-featured integrated OTT platform, Rich monetization abilities and a full suite of applications for viewing and sharing content. Our proprietary cameras capture the action. AI software and machine learning specifically tuned to over 17 different types of sports deliver a real-life production feel. Technical optimizations make it easy to capture high quality HD video in all lighting conditions. Our proprietary video compression provides stable, low-latency streaming, even with low bandwidth. The 17…"
+            />
+            <AboutPageBelieving 
+                order={false}
+                subHeading = "GLOBAL LEADER IN AUTOMATED SPORTS PRODUCTION"
+                paragraph = "Pixellot has thousands of systems dotted across the globe. Our systems capture and analyze more sports than any other provider. This is why production houses, sports federations, amateur teams, and elite coaches use Pixellot technology for all their sports production needs. And why you can watch broadcast-quality coverage from the United States, China, Germany, Spain, The Netherlands, France, the UK, Japan, Singapore, Mexico, Argentina, and more — both live and on-demand."
+            />
+            <AboutPageBelieving 
+                order={true}
+                subHeading = "GLOBAL LEADER IN AUTOMATED SPORTS PRODUCTION"
+                paragraph = "Pixellot has thousands of systems dotted across the globe. Our systems capture and analyze more sports than any other provider. This is why production houses, sports federations, amateur teams, and elite coaches use Pixellot technology for all their sports production needs. And why you can watch broadcast-quality coverage from the United States, China, Germany, Spain, The Netherlands, France, the UK, Japan, Singapore, Mexico, Argentina, and more — both live and on-demand."
+            />
+            <Counter2 />
+            <Anything />
             <div style={{backgroundColor:'#1A1F24', paddingTop:'80px'}}>
             <Footer />
             </div>
