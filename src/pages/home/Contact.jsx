@@ -2,7 +2,9 @@ const Contact = () => {
     return (
         <>
         <div className="row">
-            <a className=""></a>
+            <div className="col">
+                <a className="btn btn-success" onClick={}>Contact Us</a>
+            </div>
         </div>
 
             <div className="contactModel"></div>
